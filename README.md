@@ -214,6 +214,18 @@ end
     rails db:seed
 ```
 
+### migrate dbms engine from sqllite to postgres (optional but required in case of uploading this project to a cloud like Heroku)
+
+### add entry to Gemfile
+gem 'pg'
+
+### update confg/database.yml with your local user data
+### in case of uploading this in heroku it will be auto-generated
+development:
+  adapter: postgresql
+  host: localhost
+  username: user
+  database: app-dev
 ### now run the server and have fun!
 
 * Ruby version
