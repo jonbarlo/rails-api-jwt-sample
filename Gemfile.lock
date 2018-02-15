@@ -132,7 +132,7 @@ DEPENDENCIES
   simple_command
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
+  sqlite3 (~> 1.3.13)
   tzinfo-data
 
 BUNDLED WITH

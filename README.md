@@ -266,4 +266,13 @@ curl -H "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ
 
 * Deployment instructions
 
+Just clone the repo and push to master ;) its 100% open source feel free to play around.
+
+I have choosed to deploy this sample to Heroku
+After setting up project on heroku you just have to execute the following commands for deploying the app
+```
+heroku create
+git push heroku master
+```
+# Thanks to SoftonITG for the opportiny given on writting down a tech article that could be helpful for someone and/or catch the eye of IT tech people
 If you missed something, the project has been uploaded on GitHub. If you have any questions, do not hesitate to ask in the comments or feel free to message me on Github.
