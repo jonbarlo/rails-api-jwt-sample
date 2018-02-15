@@ -1,2 +1,2 @@
 #monkey patch
-#require "#{Rails.root}/lib/json_web_token"
+require "#{Rails.root}/lib/json_web_token"
